@@ -26,5 +26,5 @@
     <dimen name="nav_rv_width">@dimen/match_parent</dimen>
     <dimen name="nav_rv_height">@dimen/match_parent</dimen>
     <dimen name="setting_tv_width">@dimen/wrap_content</dimen>
-    <dimen name="setting_tv_height">@dimen/setting_tv_height</dimen>
+    <dimen name="setting_tv_height">@dimen/wrap_content</dimen>
 </resources>
