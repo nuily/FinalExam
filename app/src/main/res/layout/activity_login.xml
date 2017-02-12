@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nyc.c4q.huilin.hui_lin_final_exam.LoginActivity">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="@dimen/login_et_height"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/login_pw"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="@dimen/login_et_height"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="@dimen/login_submit_width"
+        android:layout_height="@dimen/login_submit_height"
+        android:text="@string/button_submit"
+        android:layout_gravity="center"/>
+</LinearLayout>
