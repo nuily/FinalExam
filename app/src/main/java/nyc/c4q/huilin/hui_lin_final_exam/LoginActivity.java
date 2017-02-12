@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        if (getIntent().getBooleanExtra("Exit me", false)) {
+        if (getIntent().getBooleanExtra(getString(R.string.Logout), false)) {
             finish();
         }
         loginUserEt = (EditText) findViewById(R.id.login_username);
@@ -34,9 +34,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View view) {
         if (TextUtils.isEmpty(loginUserEt.getText())) {
-            Toast.makeText(this, "Enter a username", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.usernameReminder, Toast.LENGTH_SHORT).show();
         } else if (TextUtils.isEmpty(loginPwEt.getText())) {
-            Toast.makeText(this, "Enter a password", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.pwReminder, Toast.LENGTH_SHORT).show();
         } else {
             Intent intent = new Intent(this, ProfileActivity.class);
             startActivity(intent);

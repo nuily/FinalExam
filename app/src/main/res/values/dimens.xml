@@ -12,11 +12,17 @@
     <dimen name="navItemWidth">@dimen/match_parent</dimen>
     <dimen name="nav_icon_width">40dp</dimen>
     <dimen name="nav_icon_height">40dp</dimen>
-    <dimen name="nav_icon_left_pad">5dp</dimen>
+    <dimen name="nav_icon_start_margin">5dp</dimen>
     <dimen name="profile_img_width">150dp</dimen>
     <dimen name="profile_img_height">150dp</dimen>
     <dimen name="profile_img_pad">200dp</dimen>
     <dimen name="button_profile_width">60dp</dimen>
     <dimen name="button_profile_height">60dp</dimen>
     <dimen name="prof_btn_row_margin">10dp</dimen>
+    <dimen name="nav_vh_width">@dimen/wrap_content</dimen>
+    <dimen name="nav_vh_height">@dimen/wrap_content</dimen>
+    <dimen name="nav_head_img_height">200dp</dimen>
+    <dimen name="nav_head_img_width">@dimen/match_parent</dimen>
+    <dimen name="nav_rv_width">@dimen/match_parent</dimen>
+    <dimen name="nav_rv_height">@dimen/match_parent</dimen>
 </resources>

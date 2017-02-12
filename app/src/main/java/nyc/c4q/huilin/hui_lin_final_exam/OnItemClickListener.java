@@ -5,5 +5,5 @@ package nyc.c4q.huilin.hui_lin_final_exam;
  */
 
 public interface OnItemClickListener {
-    void onItemClick(int position);
+    void onItemClick(int number);
 }

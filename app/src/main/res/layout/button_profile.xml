@@ -3,7 +3,8 @@
     android:id="@+id/button_row"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_margin="@dimen/prof_btn_row_margin">
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -11,14 +12,14 @@
         android:layout_height="@dimen/button_profile_height"
         android:scaleType="fitXY"
         android:src="@drawable/ic_mood_black_24dp"
-        android:layout_margin="@dimen/prof_btn_row_margin" />
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:id="@+id/profile_btn_txt"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button Text"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/prof_btn_row_margin"/>
+        android:gravity="center_horizontal"
+        android:maxLines="1"/>
 
 </LinearLayout>

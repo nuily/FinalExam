@@ -8,13 +8,13 @@
 
     <ImageView
         android:id="@+id/nav_header"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/nav_head_img_width"
+        android:layout_height="@dimen/nav_head_img_height"
         android:background="@color/bgNavHeader"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_nav_drawer"
-        android:layout_width="@dimen/match_parent"
-        android:layout_height="@dimen/match_parent"
+        android:layout_width="@dimen/nav_rv_width"
+        android:layout_height="@dimen/nav_rv_height"
         android:background="@color/bgNavRv"/>
 </LinearLayout>

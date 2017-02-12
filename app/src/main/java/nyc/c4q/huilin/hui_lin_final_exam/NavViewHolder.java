@@ -23,19 +23,19 @@ public class NavViewHolder extends RecyclerView.ViewHolder {
         switch (position) {
             case 0:
                 rv_img.setImageResource(R.drawable.ic_favorite_black_24dp);
-                rv_tv.setText("Heart Activity");
+                rv_tv.setText(R.string.profile_btn_1);
                 break;
             case 1:
                 rv_img.setImageResource(R.drawable.ic_email_black_24dp);
-                rv_tv.setText("Message Activity");
+                rv_tv.setText(R.string.profile_btn_2);
                 break;
             case 2:
                 rv_img.setImageResource(R.drawable.ic_settings_black_24dp);
-                rv_tv.setText("Settings Activity");
+                rv_tv.setText(R.string.profile_btn_3);
                 break;
             case 3:
                 rv_img.setImageResource(R.drawable.ic_highlight_off_black_24dp);
-                rv_tv.setText("Logout Activity");
+                rv_tv.setText(R.string.profile_btn_4);
                 break;
         }
         itemView.setOnClickListener(new View.OnClickListener() {
