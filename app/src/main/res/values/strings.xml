@@ -6,8 +6,8 @@
     <string name="profile_btn_3">Settings Activity</string>
     <string name="profile_btn_4">Logout Activity</string>
     <string name="Logout">Exit me</string>
-    <string name="usernameReminder">Enter a username</string>
-    <string name="pwReminder">Enter a password</string>
+    <string name="usernameReminder">Enter a username (No spaces!)</string>
+    <string name="pwReminder">Enter a password (No spaces!)</string>
     <string name="pwHint">Password</string>
     <string name="unHint">Username</string>
 </resources>
