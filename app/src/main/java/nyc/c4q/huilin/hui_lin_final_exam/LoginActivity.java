@@ -3,6 +3,7 @@ package nyc.c4q.huilin.hui_lin_final_exam;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -33,9 +34,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-        if (TextUtils.isEmpty(loginUserEt.getText())) {
+        Editable username = loginUserEt.getText();
+        Editable pw = loginPwEt.getText();
+        if (TextUtils.isEmpty(username) || username.toString().contains(" ")) {
             Toast.makeText(this, R.string.usernameReminder, Toast.LENGTH_SHORT).show();
-        } else if (TextUtils.isEmpty(loginPwEt.getText())) {
+        } else if (TextUtils.isEmpty(pw) || pw.toString().contains(" ")) {
             Toast.makeText(this, R.string.pwReminder, Toast.LENGTH_SHORT).show();
         } else {
             Intent intent = new Intent(this, ProfileActivity.class);
